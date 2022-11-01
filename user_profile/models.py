@@ -24,4 +24,4 @@ class UserProfile(models.Model):
     profile_image=models.ImageField(upload_to="profile_image",null=True,blank=True)
     
     def __str__(self):
-        return self.owner
+        return self.owner.username
