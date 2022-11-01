@@ -14,6 +14,7 @@ from django.conf import settings
 
 router = DefaultRouter()
 
+# swagger documentation 
 schema_view = get_schema_view(
    openapi.Info(
       title="Snippets API",

@@ -16,6 +16,7 @@ class UserProfile(models.Model):
         null=False,
         blank=False
         )
+    
     dob=models.DateField(null=True,blank=True,default=None)
     phone=models.CharField(max_length=20,null=True,blank=True)
     works_at=models.CharField(max_length=200,null=True,blank=True)
